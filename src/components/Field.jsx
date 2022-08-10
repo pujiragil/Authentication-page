@@ -14,11 +14,11 @@ export const Field = ({ option, labelFor, label, type, name, placeholder }) => {
   )
 }
 
-export const Remember = () => {
+export const Remember = ({ text }) => {
   return (
     <div className="flex justify-start gap-x-2 items-center text-white font-semibold mb-8">
       <input type="checkbox" className="w-6 h-6 bg-field rounded appearance-none checked:bg-checked" />
-      <p>Remember me</p>
+      <p>{text}</p>
     </div>
   )
 }

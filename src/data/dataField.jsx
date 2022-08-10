@@ -1,3 +1,12 @@
+export const name = {
+  option: false,
+  labelFor: 'name',
+  label: 'Name',
+  type: 'text',
+  name: 'name',
+  placeholder: 'e.g Owi chan'
+}
+
 export const email = {
   option: false,
   labelFor: 'email',
